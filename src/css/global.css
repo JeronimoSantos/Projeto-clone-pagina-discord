@@ -1,0 +1,155 @@
+/* 1. Importe todos os seus estilos base (mobile-first) aqui no topo */
+@import url('header.css');
+@import url('main.css');
+@import url('footer.css');
+
+/* 2. Agora, adicione suas regras de responsividade para telas maiores */
+@media screen and (min-width: 720px) {
+    header {
+        -moz-background-clip: border-box;
+    }
+
+    .container-header {
+        align-items: center;
+        gap: 4rem;
+    }
+
+    .titulo-princiapl {
+        font-size: 56px;
+        text-align: center;
+    }
+
+    .descricao-principal {
+        text-align: center;
+        width: 41rem;
+    }
+
+    .container-header-buttons {
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    main {
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    /* PRIMEIRO PARAGRAFO */
+    .container-canais-discord {
+        flex-direction: row;
+        align-items: start;
+        margin-bottom: 6rem;
+    }
+
+    .imagem-canais-discord {
+        width: 400px;
+        height: 360px;
+    }
+
+    .titulo-canais-discord {
+        font-size: 2.5rem;
+    }
+
+    /* SEGUNDO PARAGRAFO */
+    .container-voz-discord {
+        flex-direction: row-reverse;
+        align-items: start;
+        margin: 0 0 6rem 4rem;
+    }
+
+    .imagem-voz-discord {
+        width: 400px;
+        height: 360px;
+    }
+
+    .titulo-voz-discord {
+        font-size: 2.5rem;
+    }
+
+    /* TERCEIRO PARAGRAFO */
+    .container-usuario-discord {
+        flex-direction: row;
+        align-items: start;
+        margin: 0 2rem 6rem 2rem;
+    }
+
+    .usuario-discord {
+        width: 400px;
+        height: 330px;
+    }
+
+    .tiulo-usuario-discord {
+        font-size: 2.5rem;
+    }
+
+    /* QUARTO PARAGRAFO */
+    .container-video-chamada-discord  {
+        margin: 0 2rem 0 2rem;
+    }
+
+    .container-texto-video-chamada-discord {
+        align-items: center;
+        font-size: 2rem;
+    }
+
+    .titulo-video-chamada-discord {
+        width: 20rem;
+        text-align: center;
+    }
+
+    .paragrafo-video-chamada-discord {
+        text-align: center;
+    }
+
+    .imagem-video-chamada-discord {
+        width: 700px;
+        height: 482px;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    main {
+        padding: 0 160px 0 160px;
+    }
+
+    /* PRIMEIRO PARAGRAFO */
+
+    .imagem-canais-discord {
+        width: 607px;
+        height: 394px;
+    }
+
+    /* SEGUNDO PARAGRAFO */
+
+    .imagem-voz-discord {
+        width: 607px;
+        height: 394px;
+    }
+
+    .titulo-voz-discord {
+        width: 20rem;
+    }
+
+    /* TERCEIRO PARAGRAFO */
+
+    .usuario-discord {
+        width: 607px;
+        height: 394px;
+    }
+
+    /* QUARTO PARAGRAFO */
+    
+    .titulo-video-chamada-discord {
+        font-size: 3rem;
+        width: 36rem;
+    }
+
+    .imagem-video-chamada-discord {
+        width: 784px; 
+        height: 508px;
+    }
+}

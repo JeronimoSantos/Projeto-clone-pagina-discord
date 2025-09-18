@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 24px 40px 24px;
+}
+
+/* PRIMEIRO PARAGRAFO */
+
+.container-canais-discord {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 1rem 0;
+}
+
+.container-imagem-canais-discord {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem-canais-discord {
+    width: 380px;
+    height: 282px;
+}
+
+.container-texto-canais-discord {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 1rem;
+}
+
+.titulo-canais-discord {
+    color: rgba(35, 39, 42, 1);
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.50rem;
+    font-weight: 800;
+}
+
+.paragrafos-canais-discord {
+    color: rgba(35, 39, 42, 1);
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1.10rem;
+}
+
+/* SEGUNDO PARAGRAFO */
+
+.container-voz-discord {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem 0 1rem 0;
+}
+
+.container-imagem-voz-discord {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem-voz-discord {
+    width: 380px;
+    height: 282px;
+}
+
+.container-texto-voz-discord {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 1.10rem;
+}
+
+.titulo-voz-discord {
+    color: rgba(35, 39, 42, 1);
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.50rem;
+    font-weight: 800;
+}
+
+.paragrafo-voz-discord {
+    color: rgba(35, 39, 42, 1);
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* TERCEIRO PARAGRAFO */
+
+.container-usuario-discord {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 1rem 0;
+}
+
+.container-imagem-usuario-discord {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 2rem 0;
+}
+
+.usuario-discord {
+    width: 380px;
+    height: 282px;;
+}
+
+.container-texto-usuario-discord {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 1.10rem;
+}
+
+.tiulo-usuario-discord {
+    color: rgba(35, 39, 42, 1);
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.50rem;
+    font-weight: 800;
+}
+
+.paragrafo-usuario-discord {
+    color: rgba(35, 39, 42, 1);
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.10rem;
+    font-weight: 400;
+}
+
+/* QUARTO PARAGRAFO */
+
+.container-video-chamada-discord {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 1rem 0;
+}
+
+.container-texto-video-chamada-discord {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 1.10rem;
+}
+
+.titulo-video-chamada-discord {
+    color: rgba(35, 39, 42, 1);
+    font-family: "Luckiest Guy", cursive;
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+
+.paragrafo-video-chamada-discord {
+    color: rgba(35, 39, 42, 1);
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.10rem;
+    font-weight: 400;
+}
+
+.container-imagem-video-chamada-discord {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 2rem 0;
+}
+
+.imagem-video-chamada-discord {
+    width: 380px;
+    height: 282px;;
+}
