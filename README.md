@@ -14,7 +14,9 @@ Todas as tecnologias utilizadas no projeto com suas respectivas versões.
 📝 Processo de Desenvolvimento
 - Começando o desenvolvimento escolhi primeiro a estruturar o HTML com tudo que precisava no site como todos os textos, imagens, links e ícones para depois mexer nos estilos.
 
-- No CSS uma boa pratica para sites responsivos é começar o desenvolvimento pelas telas menores e depois as maiores, uma abordagem chamada de "Mobile first", assim facilitando na manutenção do site.
+- No CSS uma boa pratica para sites responsivos é começar o desenvolvimento pelas telas menores e depois as maiores, uma abordagem chamada de "Mobile first", assim facilitando na manutenção do site. As imagens e os layouts foram inspirados no figma disponibilizado pela professar para auxiliar no desenvolvimento do projeto. 
+- [Link figma](https://www.figma.com/design/NRBYrG5d4DSzObv7dpTqoM/Desafio-Responsividade---DIO?node-id=1-2&t=8031V9aSoQJFNyoE-0)
+
 
 - Depois comecei os estilos das telas maiores como as de tabletes e desktops que era as partes faltantes do site, além de alguns ajustes nos posicionamentos e tamanhos dos elementos nos novos layouts.
 
